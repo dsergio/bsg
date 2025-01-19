@@ -1,7 +1,7 @@
 
 
 CREATE TABLE employers (
-  id                    INT            PRIMARY KEY   AUTO_INCREMENT,
+  id                    INTEGER        PRIMARY KEY AUTOINCREMENT,
   name                  VARCHAR(60)    NOT NULL
 );
 

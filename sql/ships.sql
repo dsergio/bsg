@@ -1,8 +1,8 @@
 
 CREATE TABLE ships (
-  id                    INT            PRIMARY KEY   AUTO_INCREMENT,
+  id                    INT            PRIMARY KEY,
   name                  VARCHAR(255)   NOT NULL      UNIQUE,
-  class                 VARCHAR(255)   NOT NULL      UNIQUE,
+  class                 VARCHAR(255)   NOT NULL,
   crew                  INT            NOT NULL,
   capacity              INT            NOT NULL,
   role                  VARCHAR(60)    NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE ships (
   network               ENUM('Y', 'N') DEFAULT NULL
 );
 
-INSERT INTO ships (name, crew, type) VALUES
+INSERT INTO ships (name, class, crew, capacity, role, FTL, network) VALUES
 ('Galactica',    'Colonial Battlestar',    5000,  NULL,  'Battlestar', 'Y',  'N'),
 ('Pegasus',      'Colonial Battlestar',    1750,  NULL,  'Battlestar', 'Y',  'Y'),
 ('Colonial One', 'Commercial',             2,     150,   'Passenger',  'Y',  NULL),

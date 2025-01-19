@@ -1,6 +1,6 @@
 
 CREATE TABLE employees (
-  id                    INT            PRIMARY KEY   AUTO_INCREMENT,
+  id                    INTEGER            PRIMARY KEY AUTOINCREMENT,
   person_id             INT            NOT NULL,
   employer_id           INT            NOT NULL,
   position              VARCHAR(60)    NOT NULL,
@@ -16,7 +16,6 @@ INSERT INTO employees (
 	position,
 	civialian_rank_id,
 	military_rank_id,
-	on_duty,
 	start_bsg_time,
 	end_bsg_time
 	) VALUES

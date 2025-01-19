@@ -6,6 +6,3 @@ CREATE TABLE relationships (
   end_bsg_time           INT            DEFAULT NULL
 );
 
-INSERT INTO relationships (person1_id, person2_id) VALUES
-(1, 3)
-;

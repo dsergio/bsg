@@ -1,4 +1,6 @@
 
+DROP TABLE IF EXISTS cylons;
+
 CREATE TABLE cylons (
   model_number          INT            DEFAULT NULL,
   type                  VARCHAR(60)    DEFAULT NULL,

@@ -1,10 +1,12 @@
 
+DROP TABLE IF EXISTS colonies;
+
 CREATE TABLE colonies (
   id                    INT            PRIMARY KEY,
   name                  VARCHAR(60)    NOT NULL
 );
 
-INSERT INTO colonies (model_number, type) VALUES
+INSERT INTO colonies (id, name) VALUES
 (1,  'Aerilon'),
 (2,  'Aquaria'),
 (3,  'Canceron'),
