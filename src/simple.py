@@ -11,7 +11,7 @@ files = ["people.sql", "cylons.sql", "colonies.sql"]
 content = ""
 
 for filename in files:
-	filename = "./sql/" + filename
+	filename = "../sql/" + filename
 	if not os.path.isfile(filename):
 		print('File does not exist: ' + filename)
 	elif filename != 'generate.py':
@@ -26,6 +26,6 @@ for filename in files:
 
 
 
-f = open("./sql/simple.sql", "w")
+f = open("../sql/generated/simple.sql", "w")
 f.write(content)
 f.close()

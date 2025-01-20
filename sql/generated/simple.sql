@@ -7,7 +7,7 @@ CREATE TABLE people (
   last_name             VARCHAR(60)                         NOT NULL,
   salutation            VARCHAR(10)                         DEFAULT NULL,
   call_sign             VARCHAR(60)                         DEFAULT NULL,
-  home_colony_id        INTEGER                             DEFAULT NULL
+  home_colony_id        INTEGER                            DEFAULT NULL
 );
 
 INSERT INTO people (

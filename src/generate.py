@@ -26,6 +26,6 @@ for filename in files:
 
 
 
-f = open("./sql/install.sql", "w")
+f = open("./sql/generatedinstall.sql", "w")
 f.write(content)
 f.close()

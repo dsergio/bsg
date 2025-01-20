@@ -1,0 +1,18 @@
+id,first_name,last_name,salutation,call_sign,home_colony_id
+1,Lee,Adama,Sir,Apollo,4
+2,William,Adama,Sir,Husker,4
+3,Kara,Thrace,Sir,Starbuck,4
+4,Gaius,Baltar,Dr.,,1
+5,Laura,Roslin,Ms.,,4
+6,Leoben,Conoy,Mr.,,
+7,Sharon,Valerii,Sir,Boomer,
+8,Sharon,Agathon,Sir,Athena,
+9,Saul,Tigh,Sir,,13
+10,Aaron,Doral,Mr.,,
+11,Billy,Keikeya,Mr.,,8
+12,Galen,Tyrol,Sir,,13
+13,Anastasia,Dualla,Sir,,9
+14,Felix,Gaeta,Sir,,
+15,Cally,Henderson,Sir,,
+16,Karl,Agathon,Sir,Helo,4
+17,Samuel T.,Anders,Sir,,13
