@@ -6,7 +6,7 @@ import os.path
 
 from os import listdir
 from os.path import isfile, join
-files = ["people.sql", "cylons.sql", "colonies.sql"]
+files = ["people.sql", "cylons.sql", "colonies.sql", "person_kills.sql"]
 
 content = ""
 

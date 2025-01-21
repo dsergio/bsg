@@ -1,2 +1,1 @@
-
-sqlite3 simple.db < ./sql/generated/simple.sql
+sqlite3 ../simple.db < ../sql/generated/simple.sql
