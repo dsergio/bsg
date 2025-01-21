@@ -1,1 +1,1 @@
-sqlite3 ../simple.db < ../sql/generated/simple.sql
+sqlite3 /Users/davidsergio/Documents/bsg/db/simple.db < /Users/davidsergio/Documents/bsg/sql/generated/simple.sql
