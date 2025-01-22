@@ -86,21 +86,12 @@ INSERT INTO colonies (id, name) VALUES
 (12, 'Virgon'),
 (13, 'Earth');
 
-DROP TABLE IF EXISTS person_kills;
+DROP TABLE IF EXISTS person_actions;
 
-CREATE TABLE person_kills (
-  person_killer_id             INT            NOT NULL,
-  person_victim_id             INT            DEFAULT NULL,
-  cylon_victim_id              INT            DEFAULT NULL
+CREATE TABLE person_actions (
+  id                        INTEGER PRIMARY KEY,
+  action_name               TEXT NOT NULL,
+  action_timestamp          TEXT DEFAULT (datetime('now', 'localtime')),
+  source_person_id          INT DEFAULT NULL,
+  target_person_id          INT DEFAULT NULL
 );
-
-INSERT INTO person_kills (
-  person_killer_id,
-	person_victim_id, 
-	cylon_victim_id
-	)
-
-SELECT p.id, NULL, c.id FROM people p, cylons c 
-WHERE p.first_name = 'Kara' AND p.last_name = 'Thrace' AND c.type = 'raider'
-
-;

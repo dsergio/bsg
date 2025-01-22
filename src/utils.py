@@ -1,15 +1,20 @@
-def generate_actions_sql(n = 10, people_ids = [1, 2, 3, 4, 5]):
-    
-	print("test")
-	# actions_sql = []
 
-	# for i in range(n):
+import random
+
+def generate_actions_sql(n = 100, people_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]):
+
+
+	actions = ["fight", "save", "help", "betray", "forgive"]
+	actions_sql = []
+
+	for i in range(n):
 		
-	# 	random_person = random.choice(people_ids)
+		c = random.choice(people_ids)
+		d = random.choice(people_ids)
+		a = random.choice(actions)
 
-	# 	action = f"INSERT INTO person_actions (action_name, source_person_id, target_person_id, target_cylon_id)
-	# 	  VALUES ({i}, 'action_{i}');\n"
+		action = f"INSERT INTO person_actions (id, action_name, source_person_id, target_person_id) VALUES (NULL, '{a}', {c}, {d});"
 
-	# 	actions_sql.append(action)
-	
-	# print(actions_sql)
+		actions_sql.append(action)
+
+	return actions_sql
