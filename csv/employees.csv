@@ -1,0 +1,17 @@
+id,person_id,employer_id,position,dept_id,salary,civialian_rank_id,military_rank_id
+1,1,7,Commander,6,120000.0,,6.0
+2,2,7,Fleet Admiral,6,150000.0,,7.0
+3,3,7,Pilot,8,90000.0,,4.0
+4,4,1,Research Scientist,11,100000.0,4.0,
+5,5,1,President,1,200000.0,,
+6,9,7,Executive Officer,6,110000.0,,5.0
+7,8,7,Raptor Pilot,8,95000.0,,4.0
+8,17,7,Resistance Leader,13,102000.0,,5.0
+9,14,7,Operations Officer,6,92000.0,,4.0
+10,13,7,Communications Officer,6,87000.0,,3.0
+11,12,10,Chief Engineer,4,95000.0,3.0,
+12,16,7,Pilot,8,92000.0,,4.0
+13,10,9,Public Relations Officer,1,80000.0,3.0,
+14,11,1,Chief of Staff,1,85000.0,4.0,
+15,15,10,Mechanic,4,78000.0,2.0,
+16,6,13,Philosopher,11,89000.0,3.0,

@@ -95,3 +95,52 @@ CREATE TABLE person_actions (
   source_person_id          INT DEFAULT NULL,
   target_person_id          INT DEFAULT NULL
 );
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE employees (
+  id                    INTEGER        PRIMARY KEY AUTOINCREMENT,
+  person_id             INT            NOT NULL,
+  employer_id           INT            NOT NULL,
+  position              VARCHAR(60)    NOT NULL,
+  dept_id               INT            NOT NULL,
+  salary                FLOAT          NOT NULL,
+  civialian_rank_id     INT            DEFAULT NULL,
+  military_rank_id      INT            DEFAULT NULL
+);
+
+-- INSERT INTO employees (
+--   id,
+-- 	person_id, 
+-- 	employer_id,
+-- 	position,
+--   dept_id,
+--   salary,
+-- 	civialian_rank_id,
+-- 	military_rank_id
+-- 	) VALUES
+-- (NULL, 4, 1, 'Computer Scientist',                       2, 80000, NULL, NULL)
+-- ;
+DROP TABLE IF EXISTS employers;
+
+CREATE TABLE employers (
+  id                    INTEGER        PRIMARY KEY AUTOINCREMENT,
+  name                  VARCHAR(60)    NOT NULL
+);
+
+INSERT INTO employers (id, name) VALUES
+(NULL, 'Caprica Government'),
+(NULL, 'Twelve Colonies'),
+(NULL, 'Battlestar Galactica'),
+(NULL, 'Battlestar Pegesus'),
+(NULL, 'Cylon Robotics');
+DROP TABLE IF EXISTS departments;
+
+CREATE TABLE departments (
+  id                    INTEGER        PRIMARY KEY AUTOINCREMENT,
+  name                  VARCHAR(60)    NOT NULL
+);
+
+INSERT INTO departments (id, name) VALUES
+(NULL, 'Executive Branch'),
+(NULL, 'Research and Development'),
+(NULL, 'Space Force');
