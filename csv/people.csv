@@ -1,18 +1,18 @@
-id,first_name,last_name,salutation,call_sign,home_colony_id
-1,Lee,Adama,Sir,Apollo,4
-2,William,Adama,Sir,Husker,4
-3,Kara,Thrace,Sir,Starbuck,4
-4,Gaius,Baltar,Dr.,,1
-5,Laura,Roslin,Ms.,,4
-6,Leoben,Conoy,Mr.,,
-7,Sharon,Valerii,Sir,Boomer,
-8,Sharon,Agathon,Sir,Athena,
-9,Saul,Tigh,Sir,,13
-10,Aaron,Doral,Mr.,,
-11,Billy,Keikeya,Mr.,,8
-12,Galen,Tyrol,Sir,,13
-13,Anastasia,Dualla,Sir,,9
-14,Felix,Gaeta,Sir,,
-15,Cally,Henderson,Sir,,
-16,Karl,Agathon,Sir,Helo,4
-17,Samuel T.,Anders,Sir,,13
+id,first_name,last_name,salutation,call_sign,dob,weight_lbs,height_m,gender,dna_mutations_n,home_colony_id
+1,Lee,Adama,Sir,Apollo,3730-03-25,155,1.78,M,1556,4
+2,William,Adama,Sir,Husker,3700-01-15,200,1.74,M,5454544,4
+3,Kara,Thrace,Sir,Starbuck,3735-11-26,120,1.6,F,25444,4
+4,Gaius,Baltar,Dr.,,3715-07-05,160,1.7,M,3566,1
+5,Laura,Roslin,Ms.,,3705-03-01,115,1.55,F,534354354,4
+6,Leoben,Conoy,Mr.,,3715-03-06,155,1.7,M,150,
+7,Sharon,Valerii,Sir,Boomer,3735-08-13,116,1.56,F,188,
+8,Sharon,Agathon,Sir,Athena,3735-09-20,116,1.56,F,90,
+9,Saul,Tigh,Sir,,3690-08-19,170,1.7,M,7756664,13
+10,Aaron,Doral,Mr.,,3720-12-14,160,1.8,M,35,
+11,Billy,Keikeya,Mr.,,3727-11-15,158,1.75,M,4415,8
+12,Galen,Tyrol,Sir,,3720-10-05,185,1.85,M,11321,13
+13,Anastasia,Dualla,Sir,,3725-04-01,121,1.59,F,44556,9
+14,Felix,Gaeta,Sir,,3726-04-09,150,1.68,M,7548,
+15,Cally,Henderson,Sir,,3738-01-16,110,1.55,F,566,
+16,Karl,Agathon,Sir,Helo,3724-08-17,166,1.8,M,5785,4
+17,Samuel T.,Anders,Sir,,3735-10-02,180,1.77,M,445,13

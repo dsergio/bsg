@@ -1,0 +1,4 @@
+Model,Degree,Lam,Eta,Iterations,Minibatch-Size,In-sample Error,Out-sample Error
+NonSGD,1,0.1,0.01,100,20,5,4
+NonSGD,2,0.1,0.01,100,20,4,4
+NonSGD,3,0.1,0.01,100,20,5,4

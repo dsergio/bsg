@@ -1,0 +1,16 @@
+id,model_number,type,gender
+1,,IL-series,
+2,,centurion,
+3,,raider,
+4,1,humanoid,man
+5,2,humanoid,man
+6,3,humanoid,woman
+7,4,humanoid,man
+8,5,humanoid,man
+9,6,humanoid,woman
+10,7,humanoid,
+11,8,humanoid,woman
+12,9,,
+13,10,,
+14,11,,
+15,12,,
